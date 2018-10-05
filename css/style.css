@@ -162,7 +162,8 @@ body{
 }
 
 .wrap_items_fp{
-  background: rgba(83, 83, 95, 0.637);
+  background: rgba(83, 83, 95, 0.781);
+  filter: blur(.5px);
 }
 
 .sucursales{
@@ -171,4 +172,86 @@ body{
   height: 10em;
   background-position: center;
   background-size: contain;
+}
+.sicm{
+  background: url(../img/sicm.png) no-repeat;
+  width: 100%;
+  height: 10em;
+  background-position: center;
+  background-size: contain;
+}
+
+.farmacopea{
+  background: url(../img/copea.png) no-repeat;
+  width: 100%;
+  height: 10em;
+  background-position: center;
+  background-size: contain;
+}
+
+.blog{
+  background: url(../img/blog.png) no-repeat;
+  width: 100%;
+  height: 10em;
+  background-position: center;
+  background-size: contain;
+}
+
+
+
+/***/
+#image_01:hover #image_01_hover03{
+  opacity:0.2;
+}
+
+#image_01:hover #image_01_hover{
+  opacity:1.0;
+   top:120px;
+  left:-40px;
+}
+
+#image_01:hover #image_01_hover02{
+  top:66px;
+  left:40px;
+  opacity: 1.0;
+}
+
+#image_01_hover02 a{
+  position: relative;
+  top:-95px;
+  left:-25px;
+  color: #fff;
+  list-style: none;
+  margin-top: -0% !important;
+  cursor: pointer;
+  z-index: 111111111 !important;
+}
+/* + info*/
+#image_01_hover02{
+  width:100%;
+  height: 50px;
+  background-color:transparent;
+  position: relative;
+  top:66px;
+  left:70px;
+  margin:auto;
+  opacity: 0.0;
+  transition: all 0.4s;
+  color:#fff;
+  font-size:25px;
+  font-weight:200;
+  text-align:center;
+  
+}
+/******** el back que se desplaza blanco */
+#image_01_hover03{
+  background-color:rgba(0, 0, 0, 0);
+  width:100%;
+  height:5.9em;
+  margin:auto;
+  text-align:center;
+  transition: all 0.4s;
+  position: relative;
+  top:-53%;
+  opacity:0.0;
 }
